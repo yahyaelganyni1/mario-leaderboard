@@ -8,10 +8,6 @@
 
 ![desktop](./src/img/sit-screenshot.png)
 
-## Getting Started
-
-- this is a
-
 ### author
 
 **Yahya EL Ganayni**
