@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ecebf3;
+}
+
+h1 {
+  color: #564e58;
+  margin: 1.2em;
+}
+
+h2 {
+  color: #564e58;
+  margin: 0.4em;
+}
+
+.main-section {
+  margin: 1.5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.display-score-heading {
+  display: flex;
+  justify-content: space-between;
+}
