@@ -1,3 +1,4 @@
+/* eslint-disable */
 import './style.css';
 
 const apiURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/8hJ4QD4zPJVXkNmwSOKJ/scores/';
