@@ -1,6 +1,6 @@
 import './style.css';
-const apiURL =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xIniA5Uar0iFa7cLE5KD/scores/';
+
+const apiURL ='https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xIniA5Uar0iFa7cLE5KD/scores/';
 
 const userInput = document.getElementById('user-input');
 const scoreInput = document.getElementById('score-input');
@@ -30,10 +30,11 @@ form.addEventListener('submit', async (e) => {
 
 fetch(apiURL)
   .then((response) => response.json())
-  .then((json) =>
-    json.result.forEach((element) => {
+  .then((json) => {
+      json.result.forEach((element) => {
       listElement(element.user, element.score);
-    })
+      })
+    }
   );
 
 fetch(apiURL).then((response) => response.json());
