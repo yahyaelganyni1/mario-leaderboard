@@ -1,7 +1,6 @@
 import './style.css';
 
-const apiURL =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xIniA5Uar0iFa7cLE5KD/scores/';
+const apiURL = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/xIniA5Uar0iFa7cLE5KD/scores/';
 
 const userInput = document.getElementById('user-input');
 const scoreInput = document.getElementById('score-input');
